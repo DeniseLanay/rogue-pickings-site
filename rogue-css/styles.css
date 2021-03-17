@@ -1,0 +1,179 @@
+/*** WHOLE PAGE CSS ***/
+
+body {
+    background-color: #f7f7f7;
+    margin: 20px;
+}
+
+/*** STRUCTURAL CSS ***/
+
+.header {
+    display: inline-block;
+    width: 1400px;
+    float: left;
+}
+
+#main-title {
+    display: inline-block;
+    clear: both;
+    float: left;
+    width: 700px;
+    text-transform: uppercase;
+    border: none;
+    padding: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+nav {
+    display: inline-block;
+    width: 700px;
+    text-align: right;
+    padding-top: 33px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+a:link, a:visited {
+    color: #78A466;
+    text-decoration: none;
+
+}
+
+
+.beans {
+    clear: both;
+}
+
+#biz-info {
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  height: 225px;
+}
+
+#menu {
+  width: 466px;
+  display: inline-block;
+  border-right: 2px solid lightgrey;
+  height: 100%;
+  position: relative;
+  bottom: 40px;
+  box-sizing: border-box;
+
+}
+
+ #reviews {
+    width: 466px;
+    display: inline-block;
+    border-right: 2px solid lightgrey;
+    height: 100%;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 50px;
+    box-sizing: border-box;
+ }
+
+ #contact {
+    /***  width: 460px; ***/ /** I finally got this right by removing the width for this section completely though I don't don't entirely understand why it worked. I also removed the width for the #biz-info" ID so as to give myself fewer restrictions as it related to make the other sections fit **/
+     display: inline-block;
+     line-height: 1.6;
+     height: 100%;
+     position: relative;
+     bottom: 48px;
+     padding-left: 20px;
+     box-sizing: border-box;
+/** with relative positioning, I can get the element to move across the page to the right spot HOWEVER it's not lined up with the other 2. Argh! **/
+
+ }
+
+/***** COMMENT YOUR CODE, DORK! Something is wrong with my floats but I can't figure out what. My ID tags are right but the sections aren't moving****/
+
+
+
+
+/*** STYLE CSS ***/
+
+.rogue {
+    color: #78A466;
+    padding-right: 7px;
+}
+
+
+#nav-bar {
+    text-transform: uppercase;
+    color: #78A466;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+img {
+    width: 1400px; /*** initial size assumption of 1240px was incorrect. Not using a PSD and eyeballing it may NOT be the way to go ***/
+    height: 303px;
+    image-resolution: from-image;
+    background-size: cover;
+    object-fit: cover;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+
+#welcome {
+    color: #78A466;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+.text {
+    line-height: 1.6;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+}
+
+.menu-text {
+    color: #78A466;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.footer-fresh {
+    color: #78A466;
+    font-family: 'brush script mt', cursive;
+    text-transform: none;
+    font-size: 30px;
+
+}
